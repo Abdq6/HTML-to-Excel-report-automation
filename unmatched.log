@@ -1,0 +1,573 @@
+Row:4,Test Case:NAME, Step Name: ACTION
+Row:5,Test Case:B182F29 DTC Storage, Step Name: Disconnect F&R washer wire
+Row:12,Test Case:B182F29 DTC Storage, Step Name: Wait 10ms
+Row:16,Test Case:B182F29 DTC Storage, Step Name: wait 10ms
+Row:19,Test Case:B182F29 DTC Storage, Step Name: Connect F&R washer wire
+Row:22,Test Case:B182F29 DTC Storage, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:23,Test Case:B182F29 DTC Storage, Step Name: Check DTC status
+Row:24,Test Case:B182F29 DTC Storage, Step Name: Wait 10ms
+Row:25,Test Case:B182F29 DTC Storage, Step Name: Check OCC1 value
+Row:26,Test Case:B182F29 DTC Storage, Step Name: Wait 10ms
+Row:27,Test Case:B182F29 DTC Storage, Step Name: Check OCC2 value
+Row:28,Test Case:B182F29 DTC Storage, Step Name: wait 10ms
+Row:29,Test Case:B182F29 DTC Storage, Step Name: Check OCC4 value
+Row:30,Test Case:B182F29 DTC Storage, Step Name: wait 10ms
+Row:32,Test Case:B182F29 DTC Storage, Step Name: wait 10ms
+Row:33,Test Case:B182F29 DTC Storage, Step Name: Check SI30 value
+Row:37,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Check if the DTC is absent in response
+Row:38,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Press and hold the EPB
+Row:40,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Disconnect EPB
+Row:43,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:46,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Connect EPB
+Row:47,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Wait until EPB signal invalid DTC reached TestPass Limit
+Row:48,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:50,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Release the EPB
+Row:52,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Disconnect EPB
+Row:53,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:54,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Check EPB stuck DTC status
+Row:55,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Connect EPB
+Row:56,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Wait 8s
+Row:57,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:58,Test Case:EPB stuck & disconnect switch priority of action, Step Name: Check EPB stuck DTC status
+Row:64,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Press and hold the Front washer button
+Row:66,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Disconnect left stalk switches
+Row:72,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:74,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Connect F&R washer buttons
+Row:76,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Send diagnostic request "ReportDTCExtendedDataRecordByDTCNumber 0x10"
+Row:77,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Check EPB stuck DTC status
+Row:78,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Release the front washer button
+Row:80,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Disconnect left stalk switches
+Row:81,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:82,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Check EPB stuck DTC status
+Row:83,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Connect left stalk switches
+Row:84,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Wait 8s
+Row:85,Test Case:R&F washer buttons stuck & disconnect priority of action, Step Name: Send diagnostic request "ReportDTCExtendedDataRecordByDTCNumber 0x10"
+Row:95,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:97,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: For loop: Start value = 1, Stop value = 255, iterator+= 1
+Row:98,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: (In for loop)Send diagnostic request "ECU hard reset"
+Row:100,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: (In for loop)Check OCC2 value
+Row:101,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: (In for loop)Wait for FDC10 reached TestPass limit
+Row:102,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:104,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:105,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Disconnect F&R washer wire
+Row:108,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:109,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Connect F&R washer wire
+Row:111,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:112,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Wait 10ms
+Row:113,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:115,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:116,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Wait 10ms
+Row:117,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:119,Test Case:B182F29 - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:127,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Disconnect F&R washer wire
+Row:130,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Connect F&R washer wire
+Row:131,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:133,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: For loop: Start value = 1, Stop value = 255, iterator+= 1
+Row:136,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: (In for loop)Check OCC1 value
+Row:137,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Wait 10ms
+Row:140,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:142,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Disconnect F&R washer wire
+Row:143,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:144,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Wait for 16s until the DTC reached TestFailed Limit
+Row:145,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Connect F&R washer wire
+Row:146,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:148,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:149,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Wait 10ms
+Row:150,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:151,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Wait for the diagnostics to start
+Row:152,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:153,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:154,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Wait for the diagnostics to start
+Row:155,Test Case:B182F29 - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:158,Test Case:B183F2A DTC Storage, Step Name: Press and hold the EPB
+Row:165,Test Case:B183F2A DTC Storage, Step Name: Wait 10ms
+Row:169,Test Case:B183F2A DTC Storage, Step Name: wait 10ms
+Row:172,Test Case:B183F2A DTC Storage, Step Name: Release the EPB
+Row:175,Test Case:B183F2A DTC Storage, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:176,Test Case:B183F2A DTC Storage, Step Name: Check DTC status
+Row:177,Test Case:B183F2A DTC Storage, Step Name: Wait 10ms
+Row:178,Test Case:B183F2A DTC Storage, Step Name: Check OCC1 value
+Row:179,Test Case:B183F2A DTC Storage, Step Name: Wait 10ms
+Row:180,Test Case:B183F2A DTC Storage, Step Name: Check OCC2 value
+Row:181,Test Case:B183F2A DTC Storage, Step Name: wait 10ms
+Row:182,Test Case:B183F2A DTC Storage, Step Name: Check OCC4 value
+Row:183,Test Case:B183F2A DTC Storage, Step Name: wait 10ms
+Row:185,Test Case:B183F2A DTC Storage, Step Name: wait 10ms
+Row:186,Test Case:B183F2A DTC Storage, Step Name: Check SI30 value
+Row:193,Test Case:B182F29 FDC10, Step Name: Wait 500 ms
+Row:194,Test Case:B182F29 FDC10, Step Name: For loop: Start value = 244, Stop value = 136, iterator-= 12
+Row:195,Test Case:B182F29 FDC10, Step Name: (In for loop) Check FDC10 value
+Row:198,Test Case:B182F29 FDC10, Step Name: Disconnect F&R washer wire
+Row:200,Test Case:B182F29 FDC10, Step Name: For loop: Start value = 0, Stop value = 5, iterator+= 1
+Row:201,Test Case:B182F29 FDC10, Step Name: (In for loop) Check FDC10 value
+Row:203,Test Case:B182F29 FDC10, Step Name: For loop: Start value = 12, Stop value = 120, iterator+= 12
+Row:204,Test Case:B182F29 FDC10, Step Name: (In for loop) Check FDC10 value
+Row:205,Test Case:B182F29 FDC10, Step Name: (In for loop) Wait 1s for the next FDC10 test period
+Row:206,Test Case:B182F29 FDC10, Step Name: Check FDC10 value
+Row:207,Test Case:B182F29 FDC10, Step Name: Connect F&R washer wire
+Row:209,Test Case:B182F29 FDC10, Step Name: Send diagnostic request "ReportDTCExtendedDataRecordByDTCNumber 0x10"
+Row:210,Test Case:B182F29 FDC10, Step Name: Check FDC10 value
+Row:212,Test Case:B182F29 FDC10, Step Name: For loop: Start value = 244, Stop value = 136, iterator -= 12
+Row:213,Test Case:B182F29 FDC10, Step Name: (In for loop) Check FDC10 value
+Row:214,Test Case:B182F29 FDC10, Step Name: (In for loop) Wait 1s for the next FDC10 test period
+Row:215,Test Case:B182F29 FDC10, Step Name: Check FDC10 value
+Row:223,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:225,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:226,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:227,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:228,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:229,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:230,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:231,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:233,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:235,Test Case:ECU voltage measurement WMA, Step Name: Wait 80ms
+Row:236,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:237,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:238,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:239,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:240,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:241,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:242,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:243,Test Case:ECU voltage measurement WMA, Step Name: Wait 100ms
+Row:244,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:245,Test Case:ECU voltage measurement WMA, Step Name: Wait 50ms
+Row:246,Test Case:ECU voltage measurement WMA, Step Name: Check the value of the voltage presented by the SWM
+Row:254,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:259,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:260,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:261,Test Case:B182F29 DTC lifecycle, Step Name: Wait for TRC EN
+Row:262,Test Case:B182F29 DTC lifecycle, Step Name: Wait for 11s until DTC reached TestPass Limit
+Row:263,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:264,Test Case:B182F29 DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:265,Test Case:B182F29 DTC lifecycle, Step Name: Disconnect F&R washer wire
+Row:268,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:271,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFf"
+Row:272,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:273,Test Case:B182F29 DTC lifecycle, Step Name: Connect F&R washer wire
+Row:275,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:276,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:278,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:279,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:280,Test Case:B182F29 DTC lifecycle, Step Name: Disconnect F&R washer wire
+Row:281,Test Case:B182F29 DTC lifecycle, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:283,Test Case:B182F29 DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:284,Test Case:B182F29 DTC lifecycle, Step Name: Connect F&R washer wire
+Row:285,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:286,Test Case:B182F29 DTC lifecycle, Step Name: Wait for start diagnostics
+Row:287,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:288,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:289,Test Case:B182F29 DTC lifecycle, Step Name: Wait for TRC EN
+Row:290,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:291,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:292,Test Case:B182F29 DTC lifecycle, Step Name: Wait for 11s until DTC reached TestPass Limit
+Row:293,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:294,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:295,Test Case:B182F29 DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:296,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:298,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:299,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:301,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:302,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:304,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Clear Diagnostic Information"
+Row:305,Test Case:B182F29 DTC lifecycle, Step Name: Wait 10ms
+Row:306,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:307,Test Case:B182F29 DTC lifecycle, Step Name: Check DTC status
+Row:309,Test Case:B182F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:310,Test Case:B182F29 DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:315,Test Case:R&F washer buttons floating pins DTC Basic Verification, Step Name: Disconnect F&R washer wire
+Row:318,Test Case:R&F washer buttons floating pins DTC Basic Verification, Step Name: Check if the DTC is absent in response
+Row:320,Test Case:R&F washer buttons floating pins DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:321,Test Case:R&F washer buttons floating pins DTC Basic Verification, Step Name: Check if the DTC is absent in response
+Row:323,Test Case:R&F washer buttons floating pins DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:325,Test Case:R&F washer buttons floating pins DTC Basic Verification, Step Name: Connect F&R washer wire
+Row:333,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:338,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:339,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:340,Test Case:B183F29 DTC lifecycle, Step Name: Wait for TRC EN
+Row:341,Test Case:B183F29 DTC lifecycle, Step Name: Wait for 11s until DTC reached TestPass Limit
+Row:342,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:343,Test Case:B183F29 DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:344,Test Case:B183F29 DTC lifecycle, Step Name: Disconnect EPB
+Row:347,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:350,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:351,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:352,Test Case:B183F29 DTC lifecycle, Step Name: Connect EPB
+Row:354,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:355,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:357,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:358,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:359,Test Case:B183F29 DTC lifecycle, Step Name: Disconnect EPB
+Row:360,Test Case:B183F29 DTC lifecycle, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 3 within 2s
+Row:362,Test Case:B183F29 DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:363,Test Case:B183F29 DTC lifecycle, Step Name: Connect EPB
+Row:364,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:365,Test Case:B183F29 DTC lifecycle, Step Name: Wait for start diagnostics
+Row:366,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:367,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:368,Test Case:B183F29 DTC lifecycle, Step Name: Wait for TRC EN
+Row:369,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:370,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:372,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:373,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:374,Test Case:B183F29 DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:375,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:377,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:378,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:380,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:381,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:383,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Clear Diagnostic Information"
+Row:384,Test Case:B183F29 DTC lifecycle, Step Name: Wait 10ms
+Row:385,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:386,Test Case:B183F29 DTC lifecycle, Step Name: Check DTC status
+Row:388,Test Case:B183F29 DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:389,Test Case:B183F29 DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:394,Test Case:EPB floating pins DTC Basic Verification, Step Name: Disconnect EPB
+Row:397,Test Case:EPB floating pins DTC Basic Verification, Step Name: Check if the DTC is absent in response
+Row:399,Test Case:EPB floating pins DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:400,Test Case:EPB floating pins DTC Basic Verification, Step Name: Check if the DTC is absent in response
+Row:402,Test Case:EPB floating pins DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:404,Test Case:EPB floating pins DTC Basic Verification, Step Name: Connect EPB
+Row:415,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for TRC EN
+Row:416,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Press and hold EPB
+Row:417,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:418,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for 16s until DTC reached TestFail Limit
+Row:419,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Release EPB
+Row:420,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:421,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check if DTC is present in response
+Row:422,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait 10ms
+Row:423,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:424,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:425,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:426,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait 10ms
+Row:427,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:428,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:429,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:430,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for TRC EN
+Row:431,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Press and hold EPB
+Row:432,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: For loop: Start value = 2, Stop value = 255, iterator+= 1
+Row:433,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:434,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Wait for 16s until DTC reached TestFail Limit
+Row:435,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Send diagnostic request "ECU hard reset"
+Row:436,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Wait for start diagnostics
+Row:437,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Check OCC6 value
+Row:438,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop) Wait for TRC EN
+Row:439,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:440,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for 16s until DTC reached TestFail Limit
+Row:441,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:442,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:443,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:444,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for 16s until DTC reached TestPass Limit
+Row:445,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:446,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:447,Test Case:B183F2A - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:457,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ReportDTCExtendedDataRecordByDTCNumber 4"
+Row:458,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check response length
+Row:459,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for TRC EN
+Row:460,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Press and hold the EPB
+Row:464,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Release the EBP
+Row:465,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:466,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:467,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:468,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait 16s for DTC reached TestPass Limit
+Row:469,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:470,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:471,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:472,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Press and hold the EPB
+Row:473,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: For loop: Start value = 2, Stop value = 255, iterator+= 1
+Row:474,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: (In for loop) Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:475,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: (In for loop) Wait 16s for DTC reached TestFail Limit
+Row:476,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: (In for loop) Send diagnostic request "ECU hard reset"
+Row:477,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: (In for loop) Wait for start diagnostics
+Row:478,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: (In for loop) Check OCC4 value
+Row:479,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: (In for loop) Wait for TRC EN
+Row:480,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:481,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait 16s for DTC reached TestFail Limit
+Row:482,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:483,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:484,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:485,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for TRC EN
+Row:486,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Release the EPB
+Row:487,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for 16s until DTC reached TestPass limit
+Row:488,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:489,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait 10ms
+Row:490,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:491,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:492,Test Case:B183F2A - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:501,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:503,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: For loop: Start value = 1, Stop value = 255, iterator+= 1
+Row:504,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: (In for loop)Send diagnostic request "ECU hard reset"
+Row:506,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: (In for loop)Check OCC2 value
+Row:507,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: (In for loop)Wait for FDC10 reached TestPass limit
+Row:508,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:510,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:511,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Press and hold the EPB
+Row:514,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:515,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Release the EPB
+Row:517,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:518,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Wait 10ms
+Row:519,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:521,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:522,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Wait 10ms
+Row:523,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:525,Test Case:B183F2A - OCC 2 Fault free operation cycles since first failed, Step Name: Check OCC2 value
+Row:533,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Press and hold the EPB
+Row:536,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Release the EPB
+Row:537,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:539,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: For loop: Start value = 1, Stop value = 255, iterator+= 1
+Row:542,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: (In for loop)Check OCC1 value
+Row:543,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Wait 10ms
+Row:546,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:548,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Press and hold the EPB
+Row:549,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:551,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Release the EPB
+Row:552,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:554,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:555,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Wait 10ms
+Row:556,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:557,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Wait for the diagnostics to start
+Row:558,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:559,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Send diagnostic request "ECU hard reset"
+Row:560,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Wait for the diagnostics to start
+Row:561,Test Case:B183F2A - OCC 1 Operation cycle since last failed, Step Name: Check OCC1 value
+Row:568,Test Case:B183F2A FDC10, Step Name: Wait 500 ms
+Row:569,Test Case:B183F2A FDC10, Step Name: For loop: Start value = 244, Stop value = 136, iterator-= 12
+Row:570,Test Case:B183F2A FDC10, Step Name: (In for loop) Check FDC10 value
+Row:573,Test Case:B183F2A FDC10, Step Name: Press and hold EPB
+Row:575,Test Case:B183F2A FDC10, Step Name: For loop: Start value = 0, Stop value = 5, iterator+= 1
+Row:576,Test Case:B183F2A FDC10, Step Name: (In for loop) Check FDC10 value
+Row:578,Test Case:B183F2A FDC10, Step Name: For loop: Start value = 12, Stop value = 120, iterator+= 12
+Row:579,Test Case:B183F2A FDC10, Step Name: (In for loop) Check FDC10 value
+Row:580,Test Case:B183F2A FDC10, Step Name: (In for loop) Wait 1s for the next FDC10 test period
+Row:581,Test Case:B183F2A FDC10, Step Name: Check FDC10 value
+Row:582,Test Case:B183F2A FDC10, Step Name: Release EPB
+Row:584,Test Case:B183F2A FDC10, Step Name: Send diagnostic request "ReportDTCExtendedDataRecordByDTCNumber 0x10"
+Row:585,Test Case:B183F2A FDC10, Step Name: Check FDC10 value
+Row:587,Test Case:B183F2A FDC10, Step Name: For loop: Start value = 244, Stop value = 136, iterator -= 12
+Row:588,Test Case:B183F2A FDC10, Step Name: (In for loop) Check FDC10 value
+Row:589,Test Case:B183F2A FDC10, Step Name: (In for loop) Wait 1s for the next FDC10 test period
+Row:590,Test Case:B183F2A FDC10, Step Name: Check FDC10 value
+Row:598,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:603,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:604,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:605,Test Case:B182F2A DTC lifecycle, Step Name: Wait for TRC EN
+Row:606,Test Case:B182F2A DTC lifecycle, Step Name: Wait 11s for DTC reached TestPass Limit
+Row:607,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:608,Test Case:B182F2A DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:609,Test Case:B182F2A DTC lifecycle, Step Name: Press and hold the Front Wiper button
+Row:612,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:615,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:616,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:617,Test Case:B182F2A DTC lifecycle, Step Name: Release the Front Wiper button
+Row:619,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:620,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:621,Test Case:B182F2A DTC lifecycle, Step Name: Wait 1s for the fault to heal
+Row:622,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:623,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:624,Test Case:B182F2A DTC lifecycle, Step Name: Press and hold the Rear Wiper button
+Row:627,Test Case:B182F2A DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:628,Test Case:B182F2A DTC lifecycle, Step Name: Release the Rear Wiper button
+Row:629,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:630,Test Case:B182F2A DTC lifecycle, Step Name: Wait for start diagnostics
+Row:631,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:632,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:633,Test Case:B182F2A DTC lifecycle, Step Name: Wait for TRC EN
+Row:634,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:635,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:636,Test Case:B182F2A DTC lifecycle, Step Name: Wait 11s for DTC reached TestPass Limit
+Row:637,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:638,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:639,Test Case:B182F2A DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:640,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:642,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:643,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:645,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:646,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:648,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Clear Diagnostic Information"
+Row:649,Test Case:B182F2A DTC lifecycle, Step Name: Wait 10ms
+Row:650,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:651,Test Case:B182F2A DTC lifecycle, Step Name: Check DTC status
+Row:652,Test Case:B182F2A DTC lifecycle, Step Name: Wait 11s for DTC reached TestPass Limit
+Row:653,Test Case:B182F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:654,Test Case:B182F2A DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:659,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Press and hold Front washer button
+Row:661,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:662,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Check if DTC was not reported in response
+Row:664,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:665,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Check if DTC was not reported in response
+Row:667,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:669,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Release Front washer button
+Row:674,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:675,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Check if DTC was not reported in response
+Row:676,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Press and hold Rear washer button
+Row:678,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:679,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Check if DTC was not reported in response
+Row:681,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:682,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Check if DTC was not reported in response
+Row:683,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Wait for DTC reached TestFail Limit
+Row:684,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask"
+Row:685,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Check if DTC is present in response
+Row:686,Test Case:R&F washer stuck DTC Basic Verification, Step Name: Release Rear washer button
+Row:694,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:699,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:700,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:701,Test Case:B183F2A DTC lifecycle, Step Name: Wait for TRC EN
+Row:702,Test Case:B183F2A DTC lifecycle, Step Name: Wait 11s for DTC reached TestPass Limit
+Row:703,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:704,Test Case:B183F2A DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:705,Test Case:B183F2A DTC lifecycle, Step Name: Press and hold the EPB
+Row:708,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:711,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:712,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:713,Test Case:B183F2A DTC lifecycle, Step Name: Release the EPB
+Row:715,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:716,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:718,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:719,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:720,Test Case:B183F2A DTC lifecycle, Step Name: Press and hold the EPB
+Row:721,Test Case:B183F2A DTC lifecycle, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:723,Test Case:B183F2A DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:724,Test Case:B183F2A DTC lifecycle, Step Name: Release the EPB
+Row:725,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:726,Test Case:B183F2A DTC lifecycle, Step Name: Wait for start diagnostics
+Row:727,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:728,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:729,Test Case:B183F2A DTC lifecycle, Step Name: Wait for TRC EN
+Row:730,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:731,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:732,Test Case:B183F2A DTC lifecycle, Step Name: Wait 11s for DTC reached TestPass Limit
+Row:733,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:734,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:735,Test Case:B183F2A DTC lifecycle, Step Name: Wait for transfer DTC status to long term memory
+Row:736,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "ECU hard reset"
+Row:738,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:739,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:741,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:742,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:744,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Clear Diagnostic Information"
+Row:745,Test Case:B183F2A DTC lifecycle, Step Name: Wait 10ms
+Row:746,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:747,Test Case:B183F2A DTC lifecycle, Step Name: Check DTC status
+Row:749,Test Case:B183F2A DTC lifecycle, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:750,Test Case:B183F2A DTC lifecycle, Step Name: Check if the DTC is absent in response
+Row:755,Test Case:EPB stuck DTC Basic Verification, Step Name: Press and hold the EPB
+Row:758,Test Case:EPB stuck DTC Basic Verification, Step Name: Check if the DTC is absent in response
+Row:760,Test Case:EPB stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:761,Test Case:EPB stuck DTC Basic Verification, Step Name: Check if the DTC is absent in response
+Row:763,Test Case:EPB stuck DTC Basic Verification, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:775,Test Case:B182F29 - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:776,Test Case:B182F29 - TRC, Step Name: Check DTC status
+Row:778,Test Case:B182F29 - TRC, Step Name: Wait 10s for DTC reached TestPass Limit
+Row:779,Test Case:B182F29 - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:781,Test Case:B182F29 - TRC, Step Name: Disconnect F&R washer wire
+Row:786,Test Case:B182F29 - TRC, Step Name: Wait 10s
+Row:787,Test Case:B182F29 - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:789,Test Case:B182F29 - TRC, Step Name: Set power supply voltage to 15.75V
+Row:790,Test Case:B182F29 - TRC, Step Name: Wait 8s for DTC reached TestFail Limit
+Row:791,Test Case:B182F29 - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:792,Test Case:B182F29 - TRC, Step Name: Check DTC status
+Row:803,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for TRC EN
+Row:804,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Disconnect F&R washer wire
+Row:807,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Connect F&R washer wire
+Row:811,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:812,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:813,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:814,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait 10ms
+Row:815,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:816,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:817,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:818,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for TRC EN
+Row:819,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Disconnect F&R washer wire
+Row:820,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: For loop: Start value = 2, Stop value = 255, iterator+= 1
+Row:821,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:822,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Wait for 16s until DTC reached TestFail Limit
+Row:823,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Send diagnostic request "ECU hard reset"
+Row:824,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Wait for start diagnostics
+Row:825,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop)Check OCC6 value
+Row:826,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: (In for loop) Wait for TRC EN
+Row:827,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:828,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for 16s until DTC reached TestFail Limit
+Row:829,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:830,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Connect F&R washer wire
+Row:831,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:832,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:834,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:835,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Wait for start diagnostics
+Row:836,Test Case:B182F29 - OCC 6 Consecutive number of faulty operation cycles, Step Name: Check OCC6 value
+Row:840,Test Case:B182F29 - SI 30, Step Name: Check response length
+Row:841,Test Case:B182F29 - SI 30, Step Name: Disconnect F&R washer wire
+Row:842,Test Case:B182F29 - SI 30, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:843,Test Case:B182F29 - SI 30, Step Name: Wait for 9s until the DTC is in range unconfirmedDTCLimit to testFail Limit
+Row:844,Test Case:B182F29 - SI 30, Step Name: Check SI30 value
+Row:845,Test Case:B182F29 - SI 30, Step Name: Connect F&R washer wire
+Row:846,Test Case:B182F29 - SI 30, Step Name: Wait 6s for the FDC value to be negative
+Row:847,Test Case:B182F29 - SI 30, Step Name: Check SI30 value
+Row:848,Test Case:B182F29 - SI 30, Step Name: Disconnect F&R washer wire
+Row:849,Test Case:B182F29 - SI 30, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:850,Test Case:B182F29 - SI 30, Step Name: Wait for 16s until the DTC reach testFail Limit
+Row:851,Test Case:B182F29 - SI 30, Step Name: Check SI30 value
+Row:852,Test Case:B182F29 - SI 30, Step Name: Connect F&R washer wire
+Row:853,Test Case:B182F29 - SI 30, Step Name: Wait 10ms
+Row:854,Test Case:B182F29 - SI 30, Step Name: Send diagnostic request "ECU hard reset"
+Row:855,Test Case:B182F29 - SI 30, Step Name: Wait 16s for DTC reach TestPass Limit
+Row:856,Test Case:B182F29 - SI 30, Step Name: Check SI30 value
+Row:857,Test Case:B182F29 - SI 30, Step Name: Disconnect F&R washer wire
+Row:858,Test Case:B182F29 - SI 30, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:859,Test Case:B182F29 - SI 30, Step Name: Wait for 9s until the DTC is in range unconfirmedDTCLimit to testFail Limit
+Row:860,Test Case:B182F29 - SI 30, Step Name: Check SI30 value
+Row:861,Test Case:B182F29 - SI 30, Step Name: Wait 7s for DTC reach testFail Limit
+Row:862,Test Case:B182F29 - SI 30, Step Name: Connect F&R washer wire
+Row:863,Test Case:B182F29 - SI 30, Step Name: Check SI30 value
+Row:873,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ReportDTCExtendedDataRecordByDTCNumber 4"
+Row:874,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check response length
+Row:875,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Wait for TRC EN
+Row:876,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Disconnect F&R washer wire
+Row:880,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Connect F&R washer wire
+Row:881,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:882,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:883,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:884,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:886,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:887,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:888,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:889,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Disconnect F&R washer wire
+Row:890,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: For loop: Start value = 2, Stop value = 255, iterator+= 1
+Row:891,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: (In for loop)Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:893,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: (In for loop) Send diagnostic request "ECU hard reset"
+Row:894,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: (In for loop) Wait for start diagnostics
+Row:895,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: (In for loop) Check OCC4 value
+Row:896,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: (In for loop) Wait for TRC EN
+Row:897,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check that the SWMLeLvrDiagLeLvrDiagc value has been set to 4 within 2s
+Row:899,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:900,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:901,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:902,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Wait for TRC EN
+Row:903,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Connect F&R washer wire
+Row:905,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:907,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Send diagnostic request "ECU hard reset"
+Row:908,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Wait for start diagnostics
+Row:909,Test Case:B182F29 - OCC 4 Total number of failed cycles, Step Name: Check OCC4 value
+Row:920,Test Case:B183F2A - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:921,Test Case:B183F2A - TRC, Step Name: Check DTC status
+Row:923,Test Case:B183F2A - TRC, Step Name: Wait 10s for DTC reached TestPass Limit
+Row:924,Test Case:B183F2A - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:926,Test Case:B183F2A - TRC, Step Name: Press and hold the EPB
+Row:931,Test Case:B183F2A - TRC, Step Name: Wait 10s
+Row:932,Test Case:B183F2A - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:934,Test Case:B183F2A - TRC, Step Name: Set power supply voltage to 15.75V
+Row:935,Test Case:B183F2A - TRC, Step Name: Wait 8s for DTC reached TestFail Limit
+Row:936,Test Case:B183F2A - TRC, Step Name: Send diagnostic request "Report DTC By status Mask 0xFF"
+Row:937,Test Case:B183F2A - TRC, Step Name: Check DTC status
+Row:942,Test Case:B183F2A - SI 30, Step Name: Press and hold the EPB
+Row:946,Test Case:B183F2A - SI 30, Step Name: Release the EPB
+Row:948,Test Case:B183F2A - SI 30, Step Name: Check SI30 value
+Row:949,Test Case:B183F2A - SI 30, Step Name: Press and hold the EPB
+Row:950,Test Case:B183F2A - SI 30, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:952,Test Case:B183F2A - SI 30, Step Name: Check SI30 value
+Row:953,Test Case:B183F2A - SI 30, Step Name: Release the EPB
+Row:957,Test Case:B183F2A - SI 30, Step Name: Check SI30 value
+Row:958,Test Case:B183F2A - SI 30, Step Name: Press and hold the EPB
+Row:959,Test Case:B183F2A - SI 30, Step Name: Check that the SWMRiLvrDiagRiLvrDiag value has been set to 2 within 200s
+Row:960,Test Case:B183F2A - SI 30, Step Name: Wait for 9s until the DTC is in range unconfirmedDTCLimit to testFail Limit
+Row:961,Test Case:B183F2A - SI 30, Step Name: Check SI30 value
+Row:963,Test Case:B183F2A - SI 30, Step Name: Release the EPB
+Row:964,Test Case:B183F2A - SI 30, Step Name: Check SI30 value
